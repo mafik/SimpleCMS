@@ -1,0 +1,139 @@
+html {
+font-family: "Open Sans", sans-serif;
+color: #222;
+font-size: 14px;
+line-height: 1.4em;
+}
+
+body {
+background-image: url("pattern.png");
+text-align: center;
+margin: 0;
+}
+
+::selection {
+background: red;
+color: white;
+}
+
+hgroup {
+padding: 2em 0 10em;
+margin: 0 0 -10em 0;
+text-shadow: 0 0 7px rgba(0,0,0, 0.3);
+background: rgba(255,255,255, 0.5);
+border-bottom: 2em solid #444;
+color: #444;
+color: #eee;
+background-image: url('background.jpg');
+background-size: cover;
+}
+
+hgroup a {
+color: inherit;
+}
+
+hgroup h1 {
+font-family: "Marck Script", cursive;
+font-weight: normal;
+font-size: 4em;
+margin: 0;
+line-height: 1em;
+}
+
+hgroup h2 {
+font-family: "Shadows Into Light Two", cursive;
+font-weight: normal;
+font-size: 1.5em;
+margin: 0;
+line-height: 1em;
+}
+
+nav, article {
+display: inline-block;
+vertical-align: top;
+margin-bottom: 2em;
+}
+
+nav ul, article {
+background-color: white;
+box-shadow: 0 0 5px rgba(0,0,0,0.3);
+border-radius: 4px;
+}
+
+a {
+text-decoration: none;
+color: #368ac6;
+}
+
+nav {
+text-align: left;
+}
+
+nav ul {
+list-style: none;
+padding: 0em;
+margin-top: 1em;
+}
+
+nav > ul {
+margin-top: 0;
+}
+
+nav li {
+padding: 1em;
+border-top: 1px solid #ddd;
+}
+
+nav li:first-child {
+border-top: none;
+}
+
+li > ul {
+font-size: .9em;
+}
+
+nav .expand {
+cursor: pointer;
+color: red;
+}
+
+
+article {
+max-width: 30em;
+padding: 5em;
+line-height: 1.6em;
+text-align: left;
+}
+
+article p {
+text-align: justify;
+}
+
+article h1 {
+text-align: center;
+font-family: 'EB Garamond', serif;
+font-size: 2em;
+margin: 0 0 1.5em 0;
+font-weight: normal;
+}
+
+time {
+color: #888;
+font-weight: 300;
+}
+
+article h1 + time {
+text-align: center;
+display: block;
+margin: 2em 0;
+}
+
+blockquote {
+font-weight: 300;
+}
+
+pre {
+overflow-x: auto;
+padding: 10px;
+box-shadow: inset 0 0 10px #888;
+}
